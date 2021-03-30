@@ -3,7 +3,7 @@ services:
   react-app:
     image: react-app
     stdin_open: true
-    ports: 
+    ports:
       - "3000:3000"
     networks:
       - mern-app
