@@ -32,7 +32,7 @@ stop:
 
 ### REMOTE
 
-SSH_STRING:=root@161.35.104.130
+SSH_STRING:=root@104.236.59.110
 
 ssh:
 	ssh $(SSH_STRING)

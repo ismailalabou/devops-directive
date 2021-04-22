@@ -1,7 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-require('dotenv').config({ path: './config/dev.env' })
+// require('dotenv').config({ path: './config/dev.env' })
+require('dotenv').config({ path: './config/production.env' })
 
 const db = require('./db')
 const movieRouter = require('./routes/movie-router')
